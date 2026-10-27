@@ -161,6 +161,7 @@ function openModule(module, step = "video", updateHistory = true) {
 function showDashboard(event, updateHistory = true) {
   if (event?.preventDefault) event.preventDefault();
   state.currentModule = null;
+  document.title = "NTUC Health Volunteer Learning Campus";
   moduleView.hidden = true;
   dashboardView.hidden = false;
   if (updateHistory) history.pushState({}, "", location.pathname);
@@ -237,6 +238,7 @@ function completeStep(step, nextStep) {
   state.progress[state.currentModule.id] = { ...moduleProgress(state.currentModule.id), [step]: true };
   saveProgress();
   renderModule(state.currentModule, nextStep);
+  history.replaceState({}, "", `?module=${encodeURIComponent(state.currentModule.id)}&step=${nextStep}`);
 }
 
 function submitQuiz(event) {
