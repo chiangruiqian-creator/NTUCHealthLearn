@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1c9ca7" />
+    <meta name="description" content="Video-led volunteer learning modules and knowledge checks for NTUC Health Active Ageing Centre volunteers." />
+    <title>NTUC Health Volunteer Learning Campus</title>
+    <link rel="icon" href="assets/ntuc-health-logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to learning content</a>
+
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="NTUC Health Volunteer Learning Campus home">
+        <img src="assets/ntuc-health-logo.svg" alt="NTUC Health" />
+        <span class="brand-divider" aria-hidden="true"></span>
+        <span class="brand-name">Volunteer Learning Campus</span>
+      </a>
+      <div class="prototype-pill">Student prototype</div>
+      <button class="mobile-menu" type="button" aria-controls="sidebar" aria-expanded="false">Menu</button>
+    </header>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="Learning navigation">
+        <nav>
+          <p class="nav-label">Learning</p>
+          <a class="nav-item is-active" href="./" data-nav-home>
+            <span class="nav-icon" aria-hidden="true">▦</span>
+            <span>My learning</span>
+          </a>
+          <a class="nav-item" href="#course-catalogue" data-nav-catalogue>
+            <span class="nav-icon" aria-hidden="true">▤</span>
+            <span>Course catalogue</span>
+          </a>
+          <button class="nav-item nav-reset" type="button" data-reset-progress>
+            <span class="nav-icon" aria-hidden="true">↺</span>
+            <span>Reset progress</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-help">
+          <strong>No account needed</strong>
+          <p>Your progress stays on this browser only.</p>
+        </div>
+      </aside>
+
+      <main id="main-content" tabindex="-1">
+        <section id="dashboard-view" class="view" aria-labelledby="dashboard-title">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">NTUC Health Active Ageing Centres</p>
+              <h1 id="dashboard-title">Welcome to your learning campus</h1>
+              <p>Build practical confidence through short videos, guided notes and knowledge checks.</p>
+            </div>
+            <div class="overall-progress" aria-live="polite">
+              <span id="progress-count">0 of 8 complete</span>
+              <div class="progress-track"><span id="progress-bar"></span></div>
+            </div>
+          </div>
+
+          <section class="continue-panel" id="continue-panel" aria-labelledby="continue-heading">
+            <div>
+              <p class="eyebrow">Continue learning</p>
+              <h2 id="continue-heading">Start with respectful communication</h2>
+              <p>Each module follows a simple sequence: watch, learn and check your understanding.</p>
+            </div>
+            <button class="primary-button" type="button" data-continue>Start first module</button>
+          </section>
+
+          <section id="course-catalogue" class="catalogue" aria-labelledby="catalogue-title">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Course catalogue</p>
+                <h2 id="catalogue-title">Volunteer readiness modules</h2>
+              </div>
+              <label class="search-field">
+                <span class="sr-only">Search modules</span>
+                <input id="course-search" type="search" placeholder="Search modules" autocomplete="off" />
+              </label>
+            </div>
+            <div class="filter-row" role="group" aria-label="Filter modules">
+              <button class="filter-button is-active" type="button" data-filter="all">All</button>
+              <button class="filter-button" type="button" data-filter="communication">Communication</button>
+              <button class="filter-button" type="button" data-filter="safety">Safety</button>
+              <button class="filter-button" type="button" data-filter="engagement">Engagement</button>
+              <button class="filter-button" type="button" data-filter="digital">Digital support</button>
+            </div>
+            <div class="course-grid" id="course-grid" aria-live="polite"></div>
+          </section>
+        </section>
+
+        <section id="module-view" class="view" hidden aria-labelledby="module-title">
+          <div class="module-topline">
+            <button class="back-button" type="button" data-back>← Back to course catalogue</button>
+            <span id="module-code"></span>
+          </div>
+
+          <div class="module-layout">
+            <aside class="activity-rail" aria-label="Module activities">
+              <div class="module-summary">
+                <p class="eyebrow" id="module-category"></p>
+                <h1 id="module-title"></h1>
+                <p id="module-duration"></p>
+              </div>
+              <div class="activity-list" role="tablist" aria-label="Learning sequence">
+                <button type="button" role="tab" data-step="video">
+                  <span class="step-number">1</span>
+                  <span><strong>Watch</strong><small>Video lesson</small></span>
+                  <span class="step-state" aria-hidden="true"></span>
+                </button>
+                <button type="button" role="tab" data-step="learn">
+                  <span class="step-number">2</span>
+                  <span><strong>Learn</strong><small>Key ideas</small></span>
+                  <span class="step-state" aria-hidden="true"></span>
+                </button>
+                <button type="button" role="tab" data-step="quiz">
+                  <span class="step-number">3</span>
+                  <span><strong>Check</strong><small>Knowledge check</small></span>
+                  <span class="step-state" aria-hidden="true"></span>
+                </button>
+              </div>
+            </aside>
+
+            <div class="activity-content">
+              <section class="activity-panel" data-panel="video" aria-labelledby="video-heading">
+                <div class="activity-heading">
+                  <p class="eyebrow">Activity 1 of 3 · Watch</p>
+                  <h2 id="video-heading"></h2>
+                  <p id="video-introduction"></p>
+                </div>
+                <div class="video-frame" id="video-frame"></div>
+                <div class="source-row">
+                  <span id="video-source"></span>
+                  <a id="video-link" target="_blank" rel="noreferrer">Open video on YouTube ↗</a>
+                </div>
+                <div class="action-row">
+                  <span class="activity-note">Watch the video, then continue when you are ready.</span>
+                  <button class="primary-button" type="button" data-complete-video>I've watched this video</button>
+                </div>
+              </section>
+
+              <section class="activity-panel" data-panel="learn" hidden aria-labelledby="learn-heading">
+                <div class="activity-heading">
+                  <p class="eyebrow">Activity 2 of 3 · Learn</p>
+                  <h2 id="learn-heading"></h2>
+                  <p id="learn-introduction"></p>
+                </div>
+                <div class="learning-content" id="learning-content"></div>
+                <div class="action-row">
+                  <button class="secondary-button" type="button" data-previous="video">← Back to video</button>
+                  <button class="primary-button" type="button" data-complete-learn>Continue to knowledge check</button>
+                </div>
+              </section>
+
+              <section class="activity-panel" data-panel="quiz" hidden aria-labelledby="quiz-heading">
+                <div class="activity-heading">
+                  <p class="eyebrow">Activity 3 of 3 · Check</p>
+                  <h2 id="quiz-heading">Knowledge check</h2>
+                  <p>Answer all three questions. You can try again as often as you need.</p>
+                </div>
+                <form id="quiz-form" novalidate></form>
+                <div id="quiz-result" class="quiz-result" hidden aria-live="polite"></div>
+                <div class="action-row">
+                  <button class="secondary-button" type="button" data-previous="learn">← Review key ideas</button>
+                  <button class="primary-button" type="submit" form="quiz-form">Check my answers</button>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <img src="assets/ntuc-health-logo.svg" alt="NTUC Health" />
+      <div>
+        <strong>NTUC Health Volunteer Learning Campus</strong>
+        <p>Learn. Practise. Serve with confidence.</p>
+      </div>
+      <p class="disclaimer">Student prototype developed for NTUC Health review. Learning content, access arrangements and volunteering requirements are subject to confirmation by NTUC Health. External videos remain the property of their respective publishers.</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

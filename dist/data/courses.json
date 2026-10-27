@@ -1,0 +1,274 @@
+[
+  {
+    "id": "respectful-communication",
+    "code": "VLC101",
+    "category": "Communication",
+    "categoryKey": "communication",
+    "title": "Respectful Communication with Seniors",
+    "duration": "12 min",
+    "description": "Practise listening, speaking clearly and creating conversations that protect dignity.",
+    "image": "https://i.ytimg.com/vi/xEdlK4GXsZw/maxresdefault.jpg",
+    "imageAlt": "Seniors and younger people sharing a conversation",
+    "video": {
+      "id": "xEdlK4GXsZw",
+      "title": "Watch: Conversations with seniors and children",
+      "introduction": "Notice how curiosity, patience and shared stories help people of different ages connect naturally.",
+      "source": "NTUC Health",
+      "url": "https://www.youtube.com/watch?v=xEdlK4GXsZw"
+    },
+    "lesson": {
+      "title": "Make every conversation person-centred",
+      "introduction": "Good communication begins with seeing the senior as a person with preferences, experience and agency—not as a task to complete.",
+      "sections": [
+        { "heading": "Start with respect", "body": "Introduce yourself, ask how the person prefers to be addressed and speak directly to them. Avoid childish language or assumptions based only on age." },
+        { "heading": "Listen before solving", "body": "Give the person time to finish. Use short follow-up questions and reflect back what you heard. A pause is not an invitation to answer on their behalf." },
+        { "heading": "Make understanding easier", "body": "Reduce background noise, face the person, speak clearly at a natural pace and check understanding without testing or embarrassing them." }
+      ],
+      "scenario": "Mr Lim pauses while telling a story and loses his train of thought. Stay relaxed, acknowledge what he has already shared and offer a gentle prompt rather than completing the story for him.",
+      "takeaways": ["Speak to the senior, not around them.", "Use open questions and allow time for a response.", "Check understanding respectfully instead of repeating more loudly."]
+    },
+    "quiz": [
+      { "question": "A senior takes several seconds to answer. What should you do first?", "options": ["Repeat the question more loudly", "Wait calmly and maintain attentive body language", "Ask someone else to answer", "Change the subject immediately"], "answer": 1, "feedback": "Extra processing time is normal; patient attention protects dignity and supports participation." },
+      { "question": "Which opening is most respectful?", "options": ["Hello auntie, I know what you need", "Good morning, I’m Mei. How would you like me to address you?", "Can your caregiver explain for you?", "You probably cannot hear me, right?"], "answer": 1, "feedback": "Introduce yourself and ask the person's preference rather than making assumptions." },
+      { "question": "How can you check understanding without sounding like a test?", "options": ["Ask the person to repeat every word", "Say the same sentence louder", "Invite them to tell you what they would like to do next", "Move on without checking"], "answer": 2, "feedback": "A natural, action-focused question checks shared understanding while keeping the conversation collaborative." }
+    ]
+  },
+  {
+    "id": "choice-independence",
+    "code": "VLC102",
+    "category": "Communication",
+    "categoryKey": "communication",
+    "title": "Choice, Dignity and Independence",
+    "duration": "11 min",
+    "description": "Support seniors without taking over decisions or everyday tasks they can safely do.",
+    "image": "https://i.ytimg.com/vi/y4hJ-P6uWOw/maxresdefault.jpg",
+    "imageAlt": "A senior making an independent choice with support",
+    "video": {
+      "id": "y4hJ-P6uWOw",
+      "title": "Watch: Promoting choice and encouraging independence",
+      "introduction": "Look for the difference between offering support and taking control away from someone.",
+      "source": "NTUC Health",
+      "url": "https://www.youtube.com/watch?v=y4hJ-P6uWOw"
+    },
+    "lesson": {
+      "title": "Help with, not instead of",
+      "introduction": "Volunteers can make activities more accessible while allowing each senior to decide, participate and contribute in their own way.",
+      "sections": [
+        { "heading": "Offer real choices", "body": "Present two or three suitable options in plain language. Give time to decide and accept the answer, including a decision not to participate." },
+        { "heading": "Use the least help needed", "body": "Ask before assisting. Begin with a verbal cue, then demonstrate, and only provide physical help when appropriate and consented to." },
+        { "heading": "Protect capability", "body": "Completing a task faster is not always better. Participation, confidence and independence may be the more important outcomes." }
+      ],
+      "scenario": "Mdm Tan is slowly arranging materials for a craft activity. Instead of taking over, ask whether she would like you to hold the tray, demonstrate one step or simply wait nearby.",
+      "takeaways": ["Ask permission before helping.", "Offer manageable choices rather than making the decision.", "Let the senior do every safe part they can manage."]
+    },
+    "quiz": [
+      { "question": "A senior is completing a task slowly but safely. What is the best response?", "options": ["Take over so the group can move faster", "Let them continue and offer help if requested", "Tell them to skip the activity", "Ask another senior to finish it"], "answer": 1, "feedback": "Time and appropriate support allow the person to retain agency and confidence." },
+      { "question": "Which is a meaningful choice?", "options": ["Do this activity now", "Would you like painting or a word game?", "Everyone else chose this, so you should too", "You do not want to join, do you?"], "answer": 1, "feedback": "A small number of clear, suitable options supports decision-making without pressure." },
+      { "question": "Before providing physical assistance, a volunteer should usually…", "options": ["Act quickly without asking", "Ask permission and follow staff guidance", "Assume help is always welcome", "Wait until the person becomes frustrated"], "answer": 1, "feedback": "Consent and the centre's guidance determine whether and how a volunteer should assist." }
+    ]
+  },
+  {
+    "id": "dementia-friendly",
+    "code": "VLC201",
+    "category": "Communication",
+    "categoryKey": "communication",
+    "title": "Dementia-Friendly Conversations",
+    "duration": "14 min",
+    "description": "Respond to memory and communication changes with calm, clarity and connection.",
+    "image": "https://i.ytimg.com/vi/s3aZMDCAt70/maxresdefault.jpg",
+    "imageAlt": "A caregiver speaking calmly with an older adult",
+    "video": {
+      "id": "s3aZMDCAt70",
+      "title": "Watch: How Alzheimer’s affects communication",
+      "introduction": "Focus on the communication barriers described and the practical ways a supporter can reduce pressure.",
+      "source": "UCLA Health",
+      "url": "https://www.youtube.com/watch?v=s3aZMDCAt70"
+    },
+    "lesson": {
+      "title": "Connect instead of correcting",
+      "introduction": "A person living with dementia may need more time, fewer distractions and simpler choices. Their feelings remain important even when details are confused.",
+      "sections": [
+        { "heading": "Create the conditions", "body": "Approach from the front, introduce yourself, make eye contact and reduce competing noise. One speaker and one idea at a time are easier to follow." },
+        { "heading": "Use supportive language", "body": "Keep sentences short, ask one question at a time and avoid arguing over a mistaken detail. Respond to the emotion and gently redirect when needed." },
+        { "heading": "Notice non-verbal cues", "body": "Facial expression, posture and behaviour can communicate discomfort, fatigue or anxiety. If something changes suddenly, inform centre staff." }
+      ],
+      "scenario": "A senior repeatedly asks when her mother will arrive. Do not challenge her with facts. Acknowledge that she misses her mother, offer reassurance and invite her into a familiar activity while informing staff if distress continues.",
+      "takeaways": ["Reduce distractions and communicate one idea at a time.", "Validate feelings rather than arguing about facts.", "Escalate sudden or concerning changes to centre staff."]
+    },
+    "quiz": [
+      { "question": "A person living with dementia repeats the same question. What is most helpful?", "options": ["Say that you already answered", "Respond calmly and use a reassuring cue", "Ignore every repeated question", "Test whether they remember your name"], "answer": 1, "feedback": "Repetition may reflect anxiety or memory difficulty; calm reassurance reduces pressure." },
+      { "question": "Which environment best supports communication?", "options": ["Several people speaking at once", "Loud music and quick instructions", "A quieter space with one speaker", "Standing behind the person"], "answer": 2, "feedback": "Lower distraction and a clear visual connection make communication easier to process." },
+      { "question": "A senior becomes suddenly confused and unsteady. What should a volunteer do?", "options": ["Diagnose the cause", "Keep it secret", "Inform centre staff promptly and stay within role", "Postpone mentioning it until next week"], "answer": 2, "feedback": "Sudden changes require prompt staff attention; volunteers observe and escalate rather than diagnose." }
+    ]
+  },
+  {
+    "id": "falls-awareness",
+    "code": "VLC202",
+    "category": "Safety",
+    "categoryKey": "safety",
+    "title": "Falls Awareness and Safe Support",
+    "duration": "13 min",
+    "description": "Spot common hazards, respond safely and know when to involve trained centre staff.",
+    "image": "https://i.ytimg.com/vi/eRQY9iRvKic/maxresdefault.jpg",
+    "imageAlt": "An older adult learning practical fall-prevention steps",
+    "video": {
+      "id": "eRQY9iRvKic",
+      "title": "Watch: Eight steps to help prevent a fall",
+      "introduction": "Use the video as awareness training. Volunteers must follow NTUC Health procedures and staff instructions at all times.",
+      "source": "Manitoba Health / Winnipeg Regional Health Authority",
+      "url": "https://www.youtube.com/watch?v=eRQY9iRvKic"
+    },
+    "lesson": {
+      "title": "Notice, protect and escalate",
+      "introduction": "Volunteers help by keeping shared spaces orderly, observing changes and contacting staff—not by performing clinical assessments or unsafe transfers.",
+      "sections": [
+        { "heading": "Scan the environment", "body": "Look for wet floors, trailing bags, unstable chairs, poor lighting and objects blocking walkways. Remove only simple hazards that are safe to handle and tell staff." },
+        { "heading": "Support without pulling", "body": "Do not lift, pull or physically transfer a senior unless you are trained, authorised and directed. Offer reassurance, create space and summon staff." },
+        { "heading": "If a fall happens", "body": "Stay with the person, call staff immediately and keep the area calm. Do not move them unless there is immediate danger and staff or emergency guidance directs it." }
+      ],
+      "scenario": "You notice Mr Rahman reaching for a chair that appears unstable. Ask him to pause, bring the concern to staff and clear nearby clutter. Do not grab or pull him unexpectedly.",
+      "takeaways": ["Keep walking routes clear and report hazards.", "Never attempt an untrained lift or transfer.", "After a fall, stay, call staff and avoid moving the person unnecessarily."]
+    },
+    "quiz": [
+      { "question": "You see a loose bag strap across a walkway. What should you do?", "options": ["Leave it for housekeeping", "If safe, move it and inform staff", "Wait for someone to trip", "Cover it with paper"], "answer": 1, "feedback": "Simple hazards can be removed safely, while staff should still be kept informed." },
+      { "question": "A senior falls and says they are fine. What is the correct volunteer response?", "options": ["Help them stand immediately", "Leave to avoid embarrassment", "Call centre staff and stay with them", "Ask another senior to lift them"], "answer": 2, "feedback": "Possible injury requires staff assessment; moving the person may cause further harm." },
+      { "question": "When may a volunteer perform a physical transfer?", "options": ["Whenever the centre is busy", "Only when trained, authorised and following procedure", "Whenever the senior asks", "After watching an online video"], "answer": 1, "feedback": "Training, authorisation and procedure are essential for physical assistance." }
+    ]
+  },
+  {
+    "id": "digital-safety",
+    "code": "VLC203",
+    "category": "Digital support",
+    "categoryKey": "digital",
+    "title": "Digital Help Without Taking Over",
+    "duration": "12 min",
+    "description": "Guide seniors through digital tasks while protecting passwords, money and personal information.",
+    "image": "https://i.ytimg.com/vi/9oZzB7Ei-RU/maxresdefault.jpg",
+    "imageAlt": "A senior learning how to identify an impersonation scam",
+    "video": {
+      "id": "9oZzB7Ei-RU",
+      "title": "Watch: Be Cyber Safe — impersonation scams",
+      "introduction": "Look for warning signs and consider how to help a senior pause before acting on an urgent request.",
+      "source": "Cyber Security Agency of Singapore / Digital for Life",
+      "url": "https://www.youtube.com/watch?v=9oZzB7Ei-RU"
+    },
+    "lesson": {
+      "title": "Coach the steps; protect the person",
+      "introduction": "Digital support should build confidence without exposing private information or letting the volunteer control accounts and transactions.",
+      "sections": [
+        { "heading": "Let the senior stay in control", "body": "Explain one step at a time and let the senior tap or type. Never ask them to say a password or one-time password aloud, and do not store credentials." },
+        { "heading": "Pause urgent requests", "body": "Scammers create urgency, secrecy and fear. Stop the interaction, do not click unfamiliar links and verify using an official number or website—not details supplied by the caller." },
+        { "heading": "Escalate concerns", "body": "Tell centre staff if a senior may be at risk. In Singapore, the ScamShield Helpline is 1799. For immediate danger or an active financial loss, follow staff and official emergency guidance." }
+      ],
+      "scenario": "A message claiming to be from a bank tells Mdm Lee to click immediately and enter an OTP. Ask her not to click, preserve the message, involve centre staff and verify through the bank’s official channel.",
+      "takeaways": ["Never handle passwords, OTPs or banking transactions.", "Urgency and secrecy are common scam warning signs.", "Verify independently and involve staff when concerned."]
+    },
+    "quiz": [
+      { "question": "A senior asks you to type their bank password. What should you do?", "options": ["Type it quickly", "Ask them to tell you the password", "Decline, protect their privacy and seek an approved support route", "Photograph it for later"], "answer": 2, "feedback": "Volunteers must never access or record a senior's credentials or conduct financial transactions." },
+      { "question": "Which is a strong scam warning sign?", "options": ["A centre timetable", "Pressure to act urgently and keep the request secret", "A familiar family photo", "A printed activity sheet"], "answer": 1, "feedback": "Urgency, secrecy and threats are common tactics used to prevent careful verification." },
+      { "question": "How should a suspicious caller be verified?", "options": ["Call the number they provide", "Use an official website or known official number", "Share the OTP to test them", "Install the app they recommend"], "answer": 1, "feedback": "Independent verification avoids relying on contact details controlled by a possible scammer." }
+    ]
+  },
+  {
+    "id": "intergenerational-engagement",
+    "code": "VLC301",
+    "category": "Engagement",
+    "categoryKey": "engagement",
+    "title": "Bridging Generations Through Activities",
+    "duration": "10 min",
+    "description": "Create inclusive interactions where younger and older participants learn from one another.",
+    "image": "https://i.ytimg.com/vi/dXT8pwhatGU/maxresdefault.jpg",
+    "imageAlt": "Younger and older people participating in an activity together",
+    "video": {
+      "id": "dXT8pwhatGU",
+      "title": "Watch: When seniors and juniors connect",
+      "introduction": "Observe how shared activities can make conversation easier and allow every generation to contribute.",
+      "source": "NTUC Health",
+      "url": "https://www.youtube.com/watch?v=dXT8pwhatGU"
+    },
+    "lesson": {
+      "title": "Design for mutual contribution",
+      "introduction": "Intergenerational activities work best when seniors are collaborators with knowledge to share, not passive recipients of entertainment.",
+      "sections": [
+        { "heading": "Begin with a shared task", "body": "Games, music, simple crafts and storytelling give everyone something concrete to respond to and reduce the pressure of starting a conversation." },
+        { "heading": "Balance participation", "body": "Invite, do not force. Adapt pace, materials and instructions so that different abilities can contribute without singling anyone out." },
+        { "heading": "Make experience visible", "body": "Ask about memories, skills and preferences. Let seniors teach, demonstrate and make choices alongside younger participants." }
+      ],
+      "scenario": "During a music activity, invite seniors to suggest songs and share what they remember about them. Give children simple roles such as holding lyric cards or choosing the next prompt.",
+      "takeaways": ["Use an activity as a bridge, not a performance for seniors.", "Adapt quietly so everyone can participate.", "Create opportunities for seniors to lead and teach."]
+    },
+    "quiz": [
+      { "question": "What best describes an inclusive intergenerational activity?", "options": ["Young people perform while seniors only watch", "Everyone has a suitable way to contribute", "The fastest participant leads every task", "All participants must do exactly the same thing"], "answer": 1, "feedback": "Inclusive design offers meaningful roles that suit different preferences and abilities." },
+      { "question": "A senior declines an activity. What should the volunteer do?", "options": ["Pressure them because participation is healthy", "Accept the choice and offer another way to be included", "Report them for being uncooperative", "Remove them from the group"], "answer": 1, "feedback": "Participation is voluntary; another role or quiet presence may be more comfortable." },
+      { "question": "Which prompt supports mutual learning?", "options": ["Let me show you the correct way", "What games did you enjoy when you were younger?", "This is too difficult for seniors", "Please sit quietly while we finish"], "answer": 1, "feedback": "Open prompts value lived experience and invite the senior to contribute." }
+    ]
+  },
+  {
+    "id": "safe-visits",
+    "code": "VLC302",
+    "category": "Safety",
+    "categoryKey": "safety",
+    "title": "Preparing for Centre and Home Visits",
+    "duration": "12 min",
+    "description": "Arrive prepared, observe respectfully and follow boundaries during centre or outreach visits.",
+    "image": "https://i.ytimg.com/vi/6ddVCaKQSuw/maxresdefault.jpg",
+    "imageAlt": "NTUC Health team members carrying out an Active Ageing Centre visit",
+    "video": {
+      "id": "6ddVCaKQSuw",
+      "title": "Watch: NTUC Health Active Ageing Centres — smart home visits",
+      "introduction": "Notice how visits are purposeful, coordinated and centred on the senior’s circumstances.",
+      "source": "NTUC Health",
+      "url": "https://www.youtube.com/watch?v=6ddVCaKQSuw"
+    },
+    "lesson": {
+      "title": "Prepare, observe and report",
+      "introduction": "Every visit should follow the centre’s plan. Volunteers protect privacy, stay within the assigned role and report observations to staff.",
+      "sections": [
+        { "heading": "Before the visit", "body": "Attend the briefing, understand your role, know who is supervising and carry only approved materials. Do not make private arrangements outside the programme." },
+        { "heading": "During the visit", "body": "Introduce yourself and the purpose of the visit. Respect the home, do not photograph or share personal details, and avoid handling medication or money." },
+        { "heading": "After the visit", "body": "Report relevant observations factually to the assigned staff member. Do not diagnose, promise services or discuss the senior with people outside the authorised team." }
+      ],
+      "scenario": "During a visit, you notice unopened meals and that the senior seems unusually tired. Do not diagnose or promise help. Note what you observed and contact the supervising staff member promptly.",
+      "takeaways": ["Know your assigned role and supervisor before leaving.", "Protect privacy and never share visit photos casually.", "Report facts and concerns through the approved channel."]
+    },
+    "quiz": [
+      { "question": "A senior asks you to buy medication using their bank card. What should you do?", "options": ["Accept to be helpful", "Decline and contact the supervising staff member", "Ask for the PIN", "Keep the card until next visit"], "answer": 1, "feedback": "Money, medication and private errands are outside a volunteer's role unless a formal programme says otherwise." },
+      { "question": "What should a volunteer share after a concerning visit?", "options": ["A diagnosis", "Factual observations through the approved staff channel", "A photo on social media", "A promise that services will be arranged"], "answer": 1, "feedback": "Accurate observations help staff assess next steps without the volunteer exceeding their role." },
+      { "question": "When is it acceptable to photograph a senior at home?", "options": ["Whenever the photo is positive", "Only under approved consent and programme procedures", "When the senior is not looking", "If the volunteer deletes it later"], "answer": 1, "feedback": "Photography requires informed consent and compliance with the organisation's approved process." }
+    ]
+  },
+  {
+    "id": "community-belonging",
+    "code": "VLC303",
+    "category": "Engagement",
+    "categoryKey": "engagement",
+    "title": "Creating Belonging at the AAC",
+    "duration": "11 min",
+    "description": "Help each visitor feel noticed, included and connected to the life of the centre.",
+    "image": "https://i.ytimg.com/vi/mwH-Ytx8AUE/maxresdefault.jpg",
+    "imageAlt": "Seniors taking part in a welcoming Active Ageing Centre community",
+    "video": {
+      "id": "mwH-Ytx8AUE",
+      "title": "Watch: Living the kampung spirit at the Active Ageing Hub",
+      "introduction": "Look for the everyday moments that turn a programme venue into a community where people know and support one another.",
+      "source": "NTUC Health",
+      "url": "https://www.youtube.com/watch?v=mwH-Ytx8AUE"
+    },
+    "lesson": {
+      "title": "Turn attendance into connection",
+      "introduction": "Belonging grows through consistent welcome, remembered preferences and opportunities to contribute—not only through large activities.",
+      "sections": [
+        { "heading": "Welcome intentionally", "body": "Greet people by their preferred name when known, explain what is happening and introduce newcomers to a staff member or activity buddy." },
+        { "heading": "Notice the edges", "body": "Look beyond the most vocal participants. Offer low-pressure ways to join, such as helping with materials, observing first or talking one-to-one." },
+        { "heading": "Build continuity", "body": "Remember appropriate preferences, follow up on previous conversations and help people connect with activities and peers that genuinely interest them." }
+      ],
+      "scenario": "A new visitor sits alone near the entrance. Introduce yourself, explain two activities taking place and offer to accompany them. Respect their choice if they prefer to observe first.",
+      "takeaways": ["A clear welcome reduces uncertainty.", "Offer several levels of participation.", "Small, consistent interactions create trust over time."]
+    },
+    "quiz": [
+      { "question": "A newcomer prefers to watch an activity first. What should you do?", "options": ["Insist that they join immediately", "Welcome them, explain the activity and let them observe", "Ignore them until they participate", "Tell them the centre is only for active people"], "answer": 1, "feedback": "Observation can be a comfortable first step; a warm, pressure-free welcome supports belonging." },
+      { "question": "Who may need extra attention in a lively group?", "options": ["Only the loudest participants", "People at the edges who have not found a way in", "Only people who already know volunteers", "Nobody if the activity is busy"], "answer": 1, "feedback": "Quiet or new participants can be overlooked, so offer gentle invitations and choices." },
+      { "question": "What builds trust most reliably?", "options": ["One grand event", "Consistent respectful interactions over time", "Promising help outside your role", "Knowing every personal detail"], "answer": 1, "feedback": "Reliability, recognition and appropriate follow-up help relationships grow safely." }
+    ]
+  }
+]
