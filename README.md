@@ -22,7 +22,11 @@ Progress is stored only in the visitor's browser using `localStorage`. There is 
 
 ## Language and readability
 
-The top language selector translates the interface into English, Simplified Chinese, Malay or Tamil using `dist/locales.js`. Lesson text, questions and external videos remain in their original English; a visible note explains this when another interface language is selected. No external translation service receives learner answers or content.
+The top language selector changes both the interface and all written learning content into English, Simplified Chinese, Malay or Tamil. This includes catalogue cards, headings, notes, scenarios, takeaways, quiz options, feedback, durations and image descriptions. `dist/locales.js` stores interface labels, while `dist/data/courses.zh.json`, `courses.ms.json` and `courses.ta.json` contain the written course translations. Language packs are loaded on demand and reused for the current session. No external translation service receives learner answers or content.
+
+Embedded videos retain the publisher's original audio. A note beside each video explains how to use YouTube captions or auto-translate when available. Choosing a learning language does not create translated audio or guarantee that the publisher provides captions.
+
+The language selector preserves progress, answers and quiz results. The English source remains unchanged, so changing language does not affect correct-answer indices or completion requirements.
 
 The A− and A+ buttons adjust text from 100% to 150% in 12.5% steps. Language and text-size preferences are saved in this browser separately from learning progress.
 
@@ -35,6 +39,8 @@ Every module needs a unique `id` and `code`, a `title`, `category`, `categoryKey
 For a written guide, add `"format": "reading"` and omit `video` and `quiz`. Copy the Code of Ethics entry as a template. Supported category keys include `values`, `language`, `communication`, `safety`, `engagement` and `digital`.
 
 For a video module, supply `video` (`id`, `title`, `introduction`, `source`, `url`) and `quiz`. Each question needs `question`, `options`, a zero-based `answer`, and detailed `feedback`. Optional `wrongFeedback` entries can explain individual choices. `feedback` should explain why the correct behaviour matters and why the alternatives are unsuitable, because it appears immediately after selection.
+
+When editing English content, update all three course language files before publishing. Each translation file is an object keyed by the stable module `id`. It contains translated `category`, `title`, `duration`, `description`, `imageAlt`, `lesson`, and where applicable `video` text and `quiz` text. Preserve section, takeaway, question and option order. Do not duplicate structural identifiers, media URLs, answer indices or progress in these files. The validator checks all modules and text fields for missing or unchanged translations and matching array lengths.
 
 Have the relevant NTUC Health reviewer confirm training expectations and language phrasing before operational use. Keep the student-prototype disclaimer visible.
 

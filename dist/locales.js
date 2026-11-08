@@ -1,4 +1,4 @@
-/* Interface translations. Course text and videos retain their original language. */
+/* Interface translations. Full learning content lives in data/courses.<language>.json. */
 (() => {
   const labels = [
     ["Volunteer Learning Campus", "志愿者学习园地", "Kampus Pembelajaran Sukarelawan", "தன்னார்வலர் கற்றல் வளாகம்"],
@@ -79,7 +79,12 @@
     ["Decrease text size", "缩小字体", "Kecilkan saiz teks", "எழுத்தளவைக் குறைக்கவும்"],
     ["Increase text size", "放大字体", "Besarkan saiz teks", "எழுத்தளவை அதிகரிக்கவும்"],
     ["Text size", "字体大小", "Saiz teks", "எழுத்தளவு"],
-    ["Interface translated. Learning notes, questions and videos are currently in English.", "界面已翻译。学习笔记、题目和视频目前仍为英语。", "Antara muka telah diterjemahkan. Nota pembelajaran, soalan dan video kini dalam bahasa Inggeris.", "இடைமுகம் மொழிபெயர்க்கப்பட்டுள்ளது. கற்றல் குறிப்புகள், கேள்விகள் மற்றும் காணொளிகள் தற்போது ஆங்கிலத்தில் உள்ளன."],
+    ["Learning language", "学习语言", "Bahasa pembelajaran", "கற்றல் மொழி"],
+    ["Learn volunteer ethics, practise kindness, build language skills and prepare for meaningful service at NTUC Health Active Ageing Centres.", "学习志愿者行为准则，践行善意，提升语言能力，为在职总保健活跃乐龄中心提供有意义的服务做好准备。", "Pelajari etika sukarelawan, amalkan kebaikan hati, bina kemahiran bahasa dan bersedia untuk khidmat yang bermakna di Pusat Penuaan Aktif NTUC Health.", "தன்னார்வலர் நன்னெறிகளைக் கற்று, அன்பைப் பயிற்சி செய்து, மொழித் திறன்களை வளர்த்து, NTUC Health துடிப்புமிக்க முதுமை நிலையங்களில் அர்த்தமுள்ள சேவையாற்றத் தயாராகுங்கள்."],
+    ["NTUC Health Volunteer Learning Campus", "职总保健志愿者学习园地", "Kampus Pembelajaran Sukarelawan NTUC Health", "NTUC Health தன்னார்வலர் கற்றல் வளாகம்"],
+    ["External videos keep their original audio. Use YouTube captions or auto-translate when available.", "外部视频保留原始音频。如有提供，可使用 YouTube 字幕或自动翻译功能。", "Video luar mengekalkan audio asalnya. Gunakan sari kata YouTube atau terjemahan automatik jika tersedia.", "வெளிப்புறக் காணொளிகளில் அசல் ஒலி தொடரும். கிடைத்தால் YouTube வசன வரிகள் அல்லது தானியங்கி மொழிபெயர்ப்பைப் பயன்படுத்தவும்."],
+    ["Loading learning content…", "正在加载学习内容……", "Memuatkan kandungan pembelajaran…", "கற்றல் உள்ளடக்கம் ஏற்றப்படுகிறது…"],
+    ["The translation could not be loaded. Please try selecting your language again.", "无法加载翻译内容，请重新选择您的语言。", "Terjemahan tidak dapat dimuatkan. Sila pilih bahasa anda sekali lagi.", "மொழிபெயர்ப்பை ஏற்ற முடியவில்லை. உங்கள் மொழியை மீண்டும் தேர்ந்தெடுக்கவும்."],
     ["Learn. Practise. Serve with confidence.", "学习、实践，自信服务。", "Belajar. Berlatih. Berkhidmat dengan yakin.", "கற்றிடுங்கள். பயிற்சி செய்யுங்கள். நம்பிக்கையுடன் சேவையாற்றுங்கள்."],
     ["Student prototype developed for NTUC Health review. Learning content, access arrangements and volunteering requirements are subject to confirmation by NTUC Health. External videos remain the property of their respective publishers.", "本学生原型项目供职总保健审核。学习内容、使用安排及志愿服务要求有待职总保健确认。外部视频的版权归各自发布者所有。", "Prototaip pelajar yang dibangunkan untuk semakan NTUC Health. Kandungan pembelajaran, aturan akses dan keperluan sukarelawan tertakluk pada pengesahan NTUC Health. Video luar kekal milik penerbit masing-masing.", "NTUC Health-இன் பரிசீலனைக்காக மாணவர்கள் உருவாக்கிய முன்மாதிரி. கற்றல் உள்ளடக்கம், அணுகல் ஏற்பாடுகள் மற்றும் தன்னார்வச் சேவைத் தேவைகள் NTUC Health-இன் உறுதிப்படுத்தலுக்கு உட்பட்டவை. வெளிப்புறக் காணொளிகள் அவற்றின் வெளியீட்டாளர்களுக்குச் சொந்தமானவை."],
     ["{complete} of {total} complete", "已完成 {complete}/{total}", "{complete} daripada {total} selesai", "{total}-இல் {complete} முடிந்தது"],
