@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#1c9ca7" />
-    <meta name="description" content="Video-led volunteer learning modules and knowledge checks for NTUC Health Active Ageing Centre volunteers." />
+    <meta name="description" content="Learn volunteer ethics, practise kindness, build language skills and prepare for meaningful service at NTUC Health Active Ageing Centres." />
     <title>NTUC Health Volunteer Learning Campus</title>
     <link rel="icon" href="assets/ntuc-health-logo.svg" />
     <link rel="stylesheet" href="styles.css" />
@@ -12,14 +12,39 @@
   <body>
     <a class="skip-link" href="#main-content">Skip to learning content</a>
 
-    <header class="topbar">
+    <header class="site-header">
+    <div class="topbar">
       <a class="brand" href="./" aria-label="NTUC Health Volunteer Learning Campus home">
         <img src="assets/ntuc-health-logo.svg" alt="NTUC Health" />
         <span class="brand-divider" aria-hidden="true"></span>
-        <span class="brand-name">Volunteer Learning Campus</span>
+        <span class="brand-name" lang="en">Volunteer Learning Campus</span>
       </a>
       <div class="prototype-pill">Student prototype</div>
+      <div class="accessibility-tools">
+        <label class="language-control"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="sr-only">Interface language</span>
+          <select id="interface-language" aria-label="Interface language">
+            <option value="en" lang="en">English</option>
+            <option value="zh" lang="zh-Hans">简体中文</option>
+            <option value="ms" lang="ms">Bahasa Melayu</option>
+            <option value="ta" lang="ta">தமிழ்</option>
+          </select>
+        </label>
+        <div class="font-controls" role="group" aria-label="Text size">
+          <button type="button" data-font-change="-1" aria-label="Decrease text size" title="Decrease text size">A<span aria-hidden="true">−</span></button>
+          <button type="button" data-font-change="1" aria-label="Increase text size" title="Increase text size">A<span aria-hidden="true">+</span></button>
+        </div>
+      </div>
       <button class="mobile-menu" type="button" aria-controls="sidebar" aria-expanded="false">Menu</button>
+    </div>
+    <nav class="menu-bar" aria-label="Main menu">
+      <a href="./" data-menu-home>My learning</a>
+      <a href="#course-catalogue" data-menu-filter="all">All content</a>
+      <a href="?module=code-of-ethics&step=learn" data-menu-module="code-of-ethics">Code of Ethics</a>
+      <a href="#course-catalogue" data-menu-filter="upskilling">Upskilling</a>
+      <a href="?module=language-and-dialect-basics&step=learn" data-menu-module="language-and-dialect-basics">Language &amp; dialects</a>
+    </nav>
+    <p class="translation-note" id="translation-note" hidden>Interface translated. Learning notes, questions and videos are currently in English.</p>
+    <span class="sr-only" id="display-status" role="status"></span>
     </header>
 
     <div class="app-shell">
@@ -34,6 +59,9 @@
             <span class="nav-icon" aria-hidden="true">▤</span>
             <span>Course catalogue</span>
           </a>
+          <a class="nav-item" href="?module=code-of-ethics&step=learn" data-menu-module="code-of-ethics"><span class="nav-icon" aria-hidden="true">♡</span><span>Code of Ethics</span></a>
+          <a class="nav-item" href="#course-catalogue" data-menu-filter="upskilling"><span class="nav-icon" aria-hidden="true">↗</span><span>Upskilling</span></a>
+          <details class="content-directory"><summary>Explore learning</summary><div id="module-directory"></div></details>
           <button class="nav-item nav-reset" type="button" data-reset-progress>
             <span class="nav-icon" aria-hidden="true">↺</span>
             <span>Reset progress</span>
@@ -64,9 +92,15 @@
             <div>
               <p class="eyebrow">Continue learning</p>
               <h2 id="continue-heading">Start with respectful communication</h2>
-              <p>Each module follows a simple sequence: watch, learn and check your understanding.</p>
+              <p id="continue-description">Each module follows a simple sequence: watch, learn and check your understanding.</p>
             </div>
             <button class="primary-button" type="button" data-continue>Start first module</button>
+          </section>
+
+          <section class="pathways" aria-label="Explore learning">
+            <a class="pathway" href="?module=code-of-ethics&step=learn" data-menu-module="code-of-ethics"><span class="pathway-number" aria-hidden="true">01</span><div><h2>Code of Ethics</h2><p>Read our shared expectations, practise people-first values and build your communication skills.</p><span class="text-link">Read the Code of Ethics <span aria-hidden="true">↗</span></span></div></a>
+            <a class="pathway" href="?module=everyday-volunteer-values&step=learn" data-menu-module="everyday-volunteer-values"><span class="pathway-number" aria-hidden="true">02</span><div><h2>Values in practice</h2><p>Kindness, patience, generosity and honesty</p><span class="text-link">Grow your skills <span aria-hidden="true">↗</span></span></div></a>
+            <a class="pathway" href="?module=language-and-dialect-basics&step=learn" data-menu-module="language-and-dialect-basics"><span class="pathway-number" aria-hidden="true">03</span><div><h2>Language &amp; dialects</h2><p>Simple phrases. Meaningful connections.</p><span class="text-link">Read guide <span aria-hidden="true">↗</span></span></div></a>
           </section>
 
           <section id="course-catalogue" class="catalogue" aria-labelledby="catalogue-title">
@@ -86,6 +120,9 @@
               <button class="filter-button" type="button" data-filter="safety">Safety</button>
               <button class="filter-button" type="button" data-filter="engagement">Engagement</button>
               <button class="filter-button" type="button" data-filter="digital">Digital support</button>
+              <button class="filter-button" type="button" data-filter="ethics">Ethics &amp; values</button>
+              <button class="filter-button" type="button" data-filter="language">Language &amp; dialects</button>
+              <button class="filter-button" type="button" data-filter="upskilling">Upskilling</button>
             </div>
             <div class="course-grid" id="course-grid" aria-live="polite"></div>
           </section>
@@ -158,14 +195,20 @@
                 <div class="activity-heading">
                   <p class="eyebrow">Activity 3 of 3 · Check</p>
                   <h2 id="quiz-heading">Knowledge check</h2>
-                  <p>Answer all three questions. You can try again as often as you need.</p>
+                  <p>Answer each question. Feedback appears as soon as you choose an answer.</p>
                 </div>
                 <form id="quiz-form" novalidate></form>
                 <div id="quiz-result" class="quiz-result" hidden aria-live="polite"></div>
                 <div class="action-row">
                   <button class="secondary-button" type="button" data-previous="learn">← Review key ideas</button>
-                  <button class="primary-button" type="submit" form="quiz-form">Check my answers</button>
+                  <button class="primary-button" type="submit" form="quiz-form">Finish knowledge check</button>
                 </div>
+              </section>
+              <section class="activity-panel reading-panel" data-panel="reading" hidden aria-labelledby="reading-heading">
+                <div class="activity-heading"><p class="eyebrow" id="reading-eyebrow">Read &amp; reflect</p><h2 id="reading-heading"></h2><p id="reading-introduction"></p></div>
+                <p class="reading-note" id="reading-note" hidden>No video or quiz — read these expectations before volunteering.</p>
+                <div class="learning-content" id="reading-content"></div>
+                <div class="action-row"><span class="activity-note">Your progress stays on this browser only.</span><button type="button" class="primary-button" data-complete-reading>Mark as read</button></div>
               </section>
             </div>
           </div>
@@ -182,6 +225,7 @@
       <p class="disclaimer">Student prototype developed for NTUC Health review. Learning content, access arrangements and volunteering requirements are subject to confirmation by NTUC Health. External videos remain the property of their respective publishers.</p>
     </footer>
 
+    <script src="locales.js" defer></script>
     <script src="app.js" defer></script>
   </body>
 </html>

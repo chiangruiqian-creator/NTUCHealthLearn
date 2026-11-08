@@ -1,5 +1,82 @@
 [
   {
+    "id": "code-of-ethics",
+    "code": "VLC001",
+    "category": "Ethics and values",
+    "categoryKey": "values",
+    "format": "reading",
+    "title": "Volunteer Code of Ethics",
+    "duration": "6 min read",
+    "description": "Understand the expectations that protect trust: serve sincerely, respect seniors and keep personal interests outside volunteering.",
+    "image": "https://i.ytimg.com/vi/xEdlK4GXsZw/hqdefault.jpg",
+    "imageAlt": "Seniors and younger people connecting through conversation",
+    "lesson": {
+      "title": "The expectations we bring to every interaction",
+      "introduction": "Volunteering begins with a genuine heart to serve. These prototype expectations describe everyday conduct for volunteers and should be read alongside the centre's confirmed policies and staff guidance.",
+      "sections": [
+        { "heading": "Serve without an external agenda", "body": "Join because you care about seniors and want to contribute. Do not use volunteering to gain customers, leads, money, influence or private favours. An insurance agent must not sell or promote insurance to seniors, and a property agent must not market property or seek clients through volunteer relationships. This applies even if an opportunity seems convenient or the offer appears helpful." },
+        { "heading": "Keep trust free from commercial pressure", "body": "Do not circulate business cards, arrange private sales appointments, collect contact details for a business or refer seniors to your own paid services. A senior may feel obliged to agree because they trust you as a volunteer. If asked for commercial advice, explain your volunteer role and refer the request to centre staff rather than making a pitch." },
+        { "heading": "Speak with respect and gentle words", "body": "Use a calm voice, considerate language and good intentions. Address seniors as adults, listen fully and respect their preferences and choices. Do not mock, shame, threaten, argue aggressively or become hostile. If you feel frustrated, pause and ask a team member or staff member to support the interaction." },
+        { "heading": "Learn with the whole team", "body": "Each volunteer has something to learn from seniors, staff and other volunteers, regardless of age or experience. Ask questions, welcome feedback, share useful observations respectfully and give others space to contribute. Follow the agreed plan and ask for help instead of pretending to know." },
+        { "heading": "Practise kindness, patience, generosity and honesty", "body": "Kindness means noticing feelings and offering help with consent. Patience means allowing time without pressure. Generosity means sharing attention, effort and knowledge without expecting a return. Honesty means being truthful about your skills, mistakes and commitments; never promise support or outcomes you cannot provide." },
+        { "heading": "Maintain boundaries and raise concerns", "body": "Protect personal information and stay within the assigned volunteer role. Do not pursue private financial arrangements or use a senior's circumstances for personal benefit. Tell the supervising staff member promptly about a conflict of interest, inappropriate conduct or a mistake. Describe the facts calmly and let staff decide the next steps." }
+      ],
+      "scenario": "A senior asks whether you can help sell their flat after learning that you work in property. Say: 'I am here as a volunteer, so I cannot use this relationship for business. Let us ask the centre staff about an appropriate way to seek advice.' Do not exchange sales contacts or arrange a private appointment through the session.",
+      "takeaways": ["Bring a genuine heart to serve, with no sales or personal agenda.", "Never market insurance, property or other paid services through volunteering.", "Use gentle words; pause and seek support if an interaction becomes tense.", "Learn from every team member and welcome feedback.", "Show kindness, patience, generosity and honesty through actions.", "Protect trust, keep appropriate boundaries and raise concerns with staff."]
+    }
+  },
+  {
+    "id": "everyday-volunteer-values",
+    "code": "VLC002",
+    "category": "Ethics and values",
+    "categoryKey": "values",
+    "format": "reading",
+    "title": "Kindness, Patience, Generosity and Honesty",
+    "duration": "5 min read",
+    "description": "Turn good intentions into practical behaviours when welcoming seniors, sharing tasks and working as a team.",
+    "image": "https://i.ytimg.com/vi/mwH-Ytx8AUE/hqdefault.jpg",
+    "imageAlt": "Seniors joining community activities at an Active Ageing Centre",
+    "lesson": {
+      "title": "Values become visible in small actions",
+      "introduction": "Upskilling is more than learning a task. It includes the habits that help another person feel respected, safe and able to participate. Practise one habit at each session, then reflect with your team.",
+      "sections": [
+        { "heading": "Kindness: notice and ask", "body": "Greet a quieter participant, learn their preferred name and ask what would make joining easier. Offer support without assuming they need it. A kind response preserves choice: 'Would you like some help, or would you prefer to try first?'" },
+        { "heading": "Patience: make room for another pace", "body": "Allow time for an answer or a safe task. Avoid sighing, interrupting or rushing someone because the group is moving faster. Give one clear prompt, wait and check whether the person wants help. If you need a pause yourself, ask a teammate to step in calmly." },
+        { "heading": "Generosity: give attention without a return", "body": "Share your time, skills and encouragement without expecting praise, gifts, referrals or business. Invite another volunteer to learn alongside you, credit their contribution and leave space for seniors to teach you. Generosity does not mean making private financial commitments or stepping outside your role." },
+        { "heading": "Honesty: be clear about what you can do", "body": "Say 'I am not sure; let us ask the staff' when you do not know. Report mistakes promptly instead of hiding them, and tell the coordinator early if you cannot attend. Reliable, truthful communication helps the team plan and protects seniors from false expectations." },
+        { "heading": "Reflect and grow together", "body": "After a session, ask yourself: Who did I listen to? When did I feel impatient? What did another volunteer teach me? Choose one specific action to try next time. Discuss situations respectfully without sharing a senior's private details outside the authorised team." }
+      ],
+      "scenario": "A teammate explains an activity differently from you. Instead of criticising them in front of seniors, listen and support the shared task. Later, ask what worked for them, share your observation gently and agree with staff on any instructions that need to be consistent.",
+      "takeaways": ["Ask before helping and respect a person's answer.", "Slow your response when frustration rises.", "Give time and knowledge without seeking a personal return.", "Be honest about uncertainty, mistakes and availability.", "Treat every session as a chance to learn from the team."]
+    }
+  },
+  {
+    "id": "language-and-dialect-basics",
+    "code": "VLC103",
+    "category": "Language and dialects",
+    "categoryKey": "language",
+    "format": "reading",
+    "title": "Small Phrases, Stronger Connections",
+    "duration": "7 min read",
+    "description": "Practise simple greetings, ask about language preferences and learn unfamiliar dialect phrases with a fluent teammate.",
+    "image": "https://i.ytimg.com/vi/dXT8pwhatGU/hqdefault.jpg",
+    "imageAlt": "Younger and older participants learning from one another during an activity",
+    "lesson": {
+      "title": "Start with a greeting, then listen",
+      "introduction": "A few familiar words can make a welcome feel warmer. Ask which language or dialect the senior prefers; do not assume from appearance or name. The pronunciation guides below are approximate English cues, not a substitute for hearing a fluent speaker.",
+      "sections": [
+        { "heading": "Ask for a preference", "body": "Try: 'Which language would you feel most comfortable speaking?' Introduce yourself slowly and ask how the person likes to be addressed. If you do not share a language, use respectful gestures, simple words and an approved fluent teammate rather than speaking louder." },
+        { "heading": "Mandarin: a respectful hello and thank you", "body": "Hello: 您好 — nín hǎo (approximately 'neen how'). Thank you: 谢谢 — xièxie (approximately 'syeh-syeh'). Mandarin tones affect meaning; ask a fluent speaker to model each phrase and repeat it back before using it. Keep the exchange simple and be honest about how much Mandarin you understand." },
+        { "heading": "Malay: good morning and thank you", "body": "Good morning: Selamat pagi (approximately 'suh-lah-mat pah-gee'). Thank you: Terima kasih (approximately 'tuh-ree-mah kah-see'). Listen to the person's response and avoid continuing a memorised script if you do not understand. Ask a teammate to help the conversation continue." },
+        { "heading": "Tamil: a greeting and thank you", "body": "Hello: வணக்கம் — vaṇakkam (approximately 'va-nak-kam'). Thank you: நன்றி — naṉṟi, often written nandri (approximately 'nun-dree'). These English cues cannot represent every Tamil sound. Invite a fluent speaker to demonstrate, practise respectfully and welcome correction." },
+        { "heading": "Learn dialects with people, not assumptions", "body": "A senior may prefer Hokkien, Teochew, Cantonese or another variety, and words or pronunciation can differ between communities. Ask a fluent volunteer or staff member to teach a verified greeting used locally. Record the meaning and pronunciation only with permission; do not invent translations or assume all dialects are interchangeable." },
+        { "heading": "Use language to connect, not to overclaim", "body": "A greeting does not make you an interpreter. For consent, personal concerns, safety instructions or anything you cannot confidently understand, involve centre staff and appropriate language support. Do not guess a translation or put private information into a public translation service. Thank the senior for teaching you and keep learning with the team." }
+      ],
+      "scenario": "You greet a senior in Mandarin, but they answer in Hokkien and you cannot follow. Smile and explain: 'I am still learning. May I ask my teammate to help?' Find the approved fluent teammate, then learn one verified phrase together for the next visit.",
+      "takeaways": ["Ask about language and dialect preferences before assuming.", "Start with a greeting and thanks, then practise with a fluent speaker.", "Pronunciation cues are approximate; listen and welcome correction.", "Do not pretend to understand or guess an important translation.", "Seek staff and appropriate language support for sensitive or safety-related discussions."]
+    }
+  },
+  {
     "id": "respectful-communication",
     "code": "VLC101",
     "category": "Communication",
@@ -28,9 +105,9 @@
       "takeaways": ["Speak to the senior, not around them.", "Use open questions and allow time for a response.", "Check understanding respectfully instead of repeating more loudly."]
     },
     "quiz": [
-      { "question": "A senior takes several seconds to answer. What should you do first?", "options": ["Repeat the question more loudly", "Wait calmly and maintain attentive body language", "Ask someone else to answer", "Change the subject immediately"], "answer": 1, "feedback": "Extra processing time is normal; patient attention protects dignity and supports participation." },
-      { "question": "Which opening is most respectful?", "options": ["Hello auntie, I know what you need", "Good morning, I’m Mei. How would you like me to address you?", "Can your caregiver explain for you?", "You probably cannot hear me, right?"], "answer": 1, "feedback": "Introduce yourself and ask the person's preference rather than making assumptions." },
-      { "question": "How can you check understanding without sounding like a test?", "options": ["Ask the person to repeat every word", "Say the same sentence louder", "Invite them to tell you what they would like to do next", "Move on without checking"], "answer": 2, "feedback": "A natural, action-focused question checks shared understanding while keeping the conversation collaborative." }
+      { "question": "A senior takes several seconds to answer. What should you do first?", "options": ["Repeat the question more loudly", "Wait calmly and maintain attentive body language", "Ask someone else to answer", "Change the subject immediately"], "answer": 1, "feedback": "Wait calmly and show that you are listening; the person may simply need time to think or find their words. Speaking louder assumes a hearing problem, answering through someone else removes their voice, and changing the subject can make their contribution feel unimportant." },
+      { "question": "Which opening is most respectful?", "options": ["Hello auntie, I know what you need", "Good morning, I’m Mei. How would you like me to address you?", "Can your caregiver explain for you?", "You probably cannot hear me, right?"], "answer": 1, "feedback": "Introduce yourself and ask the person's preference so they can shape the interaction from the start. Assuming their needs, bypassing them for a caregiver or making assumptions about hearing can undermine dignity before the conversation has begun." },
+      { "question": "How can you check understanding without sounding like a test?", "options": ["Ask the person to repeat every word", "Say the same sentence louder", "Invite them to tell you what they would like to do next", "Move on without checking"], "answer": 2, "feedback": "Invite the person to describe their preferred next step; this checks whether you share an understanding while keeping the exchange natural. Demanding a word-for-word answer may feel like a test, volume does not resolve every misunderstanding, and moving on can leave uncertainty unaddressed." }
     ]
   },
   {
@@ -62,9 +139,9 @@
       "takeaways": ["Ask permission before helping.", "Offer manageable choices rather than making the decision.", "Let the senior do every safe part they can manage."]
     },
     "quiz": [
-      { "question": "A senior is completing a task slowly but safely. What is the best response?", "options": ["Take over so the group can move faster", "Let them continue and offer help if requested", "Tell them to skip the activity", "Ask another senior to finish it"], "answer": 1, "feedback": "Time and appropriate support allow the person to retain agency and confidence." },
-      { "question": "Which is a meaningful choice?", "options": ["Do this activity now", "Would you like painting or a word game?", "Everyone else chose this, so you should too", "You do not want to join, do you?"], "answer": 1, "feedback": "A small number of clear, suitable options supports decision-making without pressure." },
-      { "question": "Before providing physical assistance, a volunteer should usually…", "options": ["Act quickly without asking", "Ask permission and follow staff guidance", "Assume help is always welcome", "Wait until the person becomes frustrated"], "answer": 1, "feedback": "Consent and the centre's guidance determine whether and how a volunteer should assist." }
+      { "question": "A senior is completing a task slowly but safely. What is the best response?", "options": ["Take over so the group can move faster", "Let them continue and offer help if requested", "Tell them to skip the activity", "Ask another senior to finish it"], "answer": 1, "feedback": "Allow the senior to continue and offer help without taking control. Finishing for them or excluding them may save time, but it removes a chance to participate and can weaken confidence; speed alone is not the goal." },
+      { "question": "Which is a meaningful choice?", "options": ["Do this activity now", "Would you like painting or a word game?", "Everyone else chose this, so you should too", "You do not want to join, do you?"], "answer": 1, "feedback": "Offer a small number of clear, suitable options and accept the senior's decision. A command, peer pressure or a question that suggests the answer does not provide the same freedom to choose." },
+      { "question": "Before providing physical assistance, a volunteer should usually…", "options": ["Act quickly without asking", "Ask permission and follow staff guidance", "Assume help is always welcome", "Wait until the person becomes frustrated"], "answer": 1, "feedback": "Ask permission and follow the centre's guidance about the assistance you are authorised to provide. Acting on assumptions can startle the person or cross a boundary, while waiting for frustration misses the chance to offer respectful support early." }
     ]
   },
   {
@@ -96,9 +173,9 @@
       "takeaways": ["Reduce distractions and communicate one idea at a time.", "Validate feelings rather than arguing about facts.", "Escalate sudden or concerning changes to centre staff."]
     },
     "quiz": [
-      { "question": "A person living with dementia repeats the same question. What is most helpful?", "options": ["Say that you already answered", "Respond calmly and use a reassuring cue", "Ignore every repeated question", "Test whether they remember your name"], "answer": 1, "feedback": "Repetition may reflect anxiety or memory difficulty; calm reassurance reduces pressure." },
-      { "question": "Which environment best supports communication?", "options": ["Several people speaking at once", "Loud music and quick instructions", "A quieter space with one speaker", "Standing behind the person"], "answer": 2, "feedback": "Lower distraction and a clear visual connection make communication easier to process." },
-      { "question": "A senior becomes suddenly confused and unsteady. What should a volunteer do?", "options": ["Diagnose the cause", "Keep it secret", "Inform centre staff promptly and stay within role", "Postpone mentioning it until next week"], "answer": 2, "feedback": "Sudden changes require prompt staff attention; volunteers observe and escalate rather than diagnose." }
+      { "question": "A person living with dementia repeats the same question. What is most helpful?", "options": ["Say that you already answered", "Respond calmly and use a reassuring cue", "Ignore every repeated question", "Test whether they remember your name"], "answer": 1, "feedback": "Respond calmly and offer reassurance because a repeated question may reflect uncertainty or memory difficulty. Reminding the person that you already answered, ignoring them or testing memory can add embarrassment and pressure without meeting the concern behind the question." },
+      { "question": "Which environment best supports communication?", "options": ["Several people speaking at once", "Loud music and quick instructions", "A quieter space with one speaker", "Standing behind the person"], "answer": 2, "feedback": "Choose a quieter space and one speaker so the person has a clear voice and face to focus on. Competing voices, loud music, rushed instructions or speaking from behind add demands that can make understanding harder." },
+      { "question": "A senior becomes suddenly confused and unsteady. What should a volunteer do?", "options": ["Diagnose the cause", "Keep it secret", "Inform centre staff promptly and stay within role", "Postpone mentioning it until next week"], "answer": 2, "feedback": "Tell centre staff promptly what you observed and follow their directions within your volunteer role. Guessing a diagnosis exceeds that role, while secrecy or delay prevents staff from responding to a concerning change." }
     ]
   },
   {
@@ -130,9 +207,9 @@
       "takeaways": ["Keep walking routes clear and report hazards.", "Never attempt an untrained lift or transfer.", "After a fall, stay, call staff and avoid moving the person unnecessarily."]
     },
     "quiz": [
-      { "question": "You see a loose bag strap across a walkway. What should you do?", "options": ["Leave it for housekeeping", "If safe, move it and inform staff", "Wait for someone to trip", "Cover it with paper"], "answer": 1, "feedback": "Simple hazards can be removed safely, while staff should still be kept informed." },
-      { "question": "A senior falls and says they are fine. What is the correct volunteer response?", "options": ["Help them stand immediately", "Leave to avoid embarrassment", "Call centre staff and stay with them", "Ask another senior to lift them"], "answer": 2, "feedback": "Possible injury requires staff assessment; moving the person may cause further harm." },
-      { "question": "When may a volunteer perform a physical transfer?", "options": ["Whenever the centre is busy", "Only when trained, authorised and following procedure", "Whenever the senior asks", "After watching an online video"], "answer": 1, "feedback": "Training, authorisation and procedure are essential for physical assistance." }
+      { "question": "You see a loose bag strap across a walkway. What should you do?", "options": ["Leave it for housekeeping", "If safe, move it and inform staff", "Wait for someone to trip", "Cover it with paper"], "answer": 1, "feedback": "Remove the simple hazard only if you can do so safely, and tell staff so the walkway stays clear. Leaving it in place or waiting exposes others to a known obstacle; covering it with paper conceals the strap and can create another hazard." },
+      { "question": "A senior falls and says they are fine. What is the correct volunteer response?", "options": ["Help them stand immediately", "Leave to avoid embarrassment", "Call centre staff and stay with them", "Ask another senior to lift them"], "answer": 2, "feedback": "Call staff, stay with the senior and follow the centre's response procedure. Do not assume a reassuring comment rules out injury: an untrained lift can cause further harm, and leaving means the senior has no immediate support." },
+      { "question": "When may a volunteer perform a physical transfer?", "options": ["Whenever the centre is busy", "Only when trained, authorised and following procedure", "Whenever the senior asks", "After watching an online video"], "answer": 1, "feedback": "A physical transfer requires the relevant training, authorisation and the centre's procedure. A busy session, a request for help or an online video does not establish that you can assist safely; ask trained staff for support." }
     ]
   },
   {
@@ -164,9 +241,9 @@
       "takeaways": ["Never handle passwords, OTPs or banking transactions.", "Urgency and secrecy are common scam warning signs.", "Verify independently and involve staff when concerned."]
     },
     "quiz": [
-      { "question": "A senior asks you to type their bank password. What should you do?", "options": ["Type it quickly", "Ask them to tell you the password", "Decline, protect their privacy and seek an approved support route", "Photograph it for later"], "answer": 2, "feedback": "Volunteers must never access or record a senior's credentials or conduct financial transactions." },
-      { "question": "Which is a strong scam warning sign?", "options": ["A centre timetable", "Pressure to act urgently and keep the request secret", "A familiar family photo", "A printed activity sheet"], "answer": 1, "feedback": "Urgency, secrecy and threats are common tactics used to prevent careful verification." },
-      { "question": "How should a suspicious caller be verified?", "options": ["Call the number they provide", "Use an official website or known official number", "Share the OTP to test them", "Install the app they recommend"], "answer": 1, "feedback": "Independent verification avoids relying on contact details controlled by a possible scammer." }
+      { "question": "A senior asks you to type their bank password. What should you do?", "options": ["Type it quickly", "Ask them to tell you the password", "Decline, protect their privacy and seek an approved support route", "Photograph it for later"], "answer": 2, "feedback": "Decline respectfully and ask staff about an approved support route while the senior retains control of their account. Typing, hearing or photographing a password exposes private credentials and can place both the senior and volunteer at risk; helpful intentions do not remove that boundary." },
+      { "question": "Which is a strong scam warning sign?", "options": ["A centre timetable", "Pressure to act urgently and keep the request secret", "A familiar family photo", "A printed activity sheet"], "answer": 1, "feedback": "Pressure to act immediately and keep a request secret is a reason to pause and verify independently. These tactics discourage a person from checking with someone they trust; ordinary materials or a familiar image alone do not establish the same warning pattern." },
+      { "question": "How should a suspicious caller be verified?", "options": ["Call the number they provide", "Use an official website or known official number", "Share the OTP to test them", "Install the app they recommend"], "answer": 1, "feedback": "Find an official website or a known official number independently before taking further action. A number or app supplied by the caller may also be controlled by them, and sharing an OTP can expose an account rather than verify who is calling." }
     ]
   },
   {
@@ -198,9 +275,9 @@
       "takeaways": ["Use an activity as a bridge, not a performance for seniors.", "Adapt quietly so everyone can participate.", "Create opportunities for seniors to lead and teach."]
     },
     "quiz": [
-      { "question": "What best describes an inclusive intergenerational activity?", "options": ["Young people perform while seniors only watch", "Everyone has a suitable way to contribute", "The fastest participant leads every task", "All participants must do exactly the same thing"], "answer": 1, "feedback": "Inclusive design offers meaningful roles that suit different preferences and abilities." },
-      { "question": "A senior declines an activity. What should the volunteer do?", "options": ["Pressure them because participation is healthy", "Accept the choice and offer another way to be included", "Report them for being uncooperative", "Remove them from the group"], "answer": 1, "feedback": "Participation is voluntary; another role or quiet presence may be more comfortable." },
-      { "question": "Which prompt supports mutual learning?", "options": ["Let me show you the correct way", "What games did you enjoy when you were younger?", "This is too difficult for seniors", "Please sit quietly while we finish"], "answer": 1, "feedback": "Open prompts value lived experience and invite the senior to contribute." }
+      { "question": "What best describes an inclusive intergenerational activity?", "options": ["Young people perform while seniors only watch", "Everyone has a suitable way to contribute", "The fastest participant leads every task", "All participants must do exactly the same thing"], "answer": 1, "feedback": "Offer meaningful roles that suit different abilities, interests and preferences. Requiring identical tasks or giving all leadership to the fastest person can exclude others, while treating seniors only as an audience misses opportunities for mutual contribution." },
+      { "question": "A senior declines an activity. What should the volunteer do?", "options": ["Pressure them because participation is healthy", "Accept the choice and offer another way to be included", "Report them for being uncooperative", "Remove them from the group"], "answer": 1, "feedback": "Accept the decision and offer another role, activity or the option to observe. Pressure, punishment or exclusion treats a personal preference as misbehaviour and can make the person less comfortable returning." },
+      { "question": "Which prompt supports mutual learning?", "options": ["Let me show you the correct way", "What games did you enjoy when you were younger?", "This is too difficult for seniors", "Please sit quietly while we finish"], "answer": 1, "feedback": "An open question about familiar games invites the senior to share knowledge and experience. Assuming you always know the correct way, describing tasks as too difficult for seniors or asking them to stay silent closes off their contribution." }
     ]
   },
   {
@@ -232,9 +309,9 @@
       "takeaways": ["Know your assigned role and supervisor before leaving.", "Protect privacy and never share visit photos casually.", "Report facts and concerns through the approved channel."]
     },
     "quiz": [
-      { "question": "A senior asks you to buy medication using their bank card. What should you do?", "options": ["Accept to be helpful", "Decline and contact the supervising staff member", "Ask for the PIN", "Keep the card until next visit"], "answer": 1, "feedback": "Money, medication and private errands are outside a volunteer's role unless a formal programme says otherwise." },
-      { "question": "What should a volunteer share after a concerning visit?", "options": ["A diagnosis", "Factual observations through the approved staff channel", "A photo on social media", "A promise that services will be arranged"], "answer": 1, "feedback": "Accurate observations help staff assess next steps without the volunteer exceeding their role." },
-      { "question": "When is it acceptable to photograph a senior at home?", "options": ["Whenever the photo is positive", "Only under approved consent and programme procedures", "When the senior is not looking", "If the volunteer deletes it later"], "answer": 1, "feedback": "Photography requires informed consent and compliance with the organisation's approved process." }
+      { "question": "A senior asks you to buy medication using their bank card. What should you do?", "options": ["Accept to be helpful", "Decline and contact the supervising staff member", "Ask for the PIN", "Keep the card until next visit"], "answer": 1, "feedback": "Decline respectfully and bring the request to your supervising staff member so an appropriate arrangement can be considered. Taking the card, asking for a PIN or privately carrying out the errand crosses financial and role boundaries, even when the request is well intended." },
+      { "question": "What should a volunteer share after a concerning visit?", "options": ["A diagnosis", "Factual observations through the approved staff channel", "A photo on social media", "A promise that services will be arranged"], "answer": 1, "feedback": "Describe what you saw or heard through the approved staff channel, distinguishing observations from assumptions. A diagnosis exceeds the volunteer role, public photos expose privacy, and promises about services create expectations you may not be able to meet." },
+      { "question": "When is it acceptable to photograph a senior at home?", "options": ["Whenever the photo is positive", "Only under approved consent and programme procedures", "When the senior is not looking", "If the volunteer deletes it later"], "answer": 1, "feedback": "Use the organisation's approved consent and photography process before taking any photo. A positive image still involves privacy, unnoticed photography removes choice, and deleting an image later does not undo taking it without permission." }
     ]
   },
   {
@@ -266,9 +343,9 @@
       "takeaways": ["A clear welcome reduces uncertainty.", "Offer several levels of participation.", "Small, consistent interactions create trust over time."]
     },
     "quiz": [
-      { "question": "A newcomer prefers to watch an activity first. What should you do?", "options": ["Insist that they join immediately", "Welcome them, explain the activity and let them observe", "Ignore them until they participate", "Tell them the centre is only for active people"], "answer": 1, "feedback": "Observation can be a comfortable first step; a warm, pressure-free welcome supports belonging." },
-      { "question": "Who may need extra attention in a lively group?", "options": ["Only the loudest participants", "People at the edges who have not found a way in", "Only people who already know volunteers", "Nobody if the activity is busy"], "answer": 1, "feedback": "Quiet or new participants can be overlooked, so offer gentle invitations and choices." },
-      { "question": "What builds trust most reliably?", "options": ["One grand event", "Consistent respectful interactions over time", "Promising help outside your role", "Knowing every personal detail"], "answer": 1, "feedback": "Reliability, recognition and appropriate follow-up help relationships grow safely." }
+      { "question": "A newcomer prefers to watch an activity first. What should you do?", "options": ["Insist that they join immediately", "Welcome them, explain the activity and let them observe", "Ignore them until they participate", "Tell them the centre is only for active people"], "answer": 1, "feedback": "Offer a warm explanation and let the newcomer observe at their own pace. Insisting, ignoring them or suggesting they do not belong creates pressure; feeling welcome before joining can be an important first step." },
+      { "question": "Who may need extra attention in a lively group?", "options": ["Only the loudest participants", "People at the edges who have not found a way in", "Only people who already know volunteers", "Nobody if the activity is busy"], "answer": 1, "feedback": "Notice people at the edges and offer a gentle invitation with several ways to participate. Focusing only on loud or familiar participants can leave newcomers unseen, and a busy activity does not mean everyone feels included." },
+      { "question": "What builds trust most reliably?", "options": ["One grand event", "Consistent respectful interactions over time", "Promising help outside your role", "Knowing every personal detail"], "answer": 1, "feedback": "Reliable, respectful interactions and appropriate follow-up show that the senior can depend on you within your role. A single event cannot replace consistency, and overpromising or seeking unnecessary personal details can weaken the trust you want to build." }
     ]
   }
 ]
